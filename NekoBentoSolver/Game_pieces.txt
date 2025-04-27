@@ -1,0 +1,90 @@
+﻿//Pieces: 
+    //First, the ones that fill a rectangle:
+        //Pea: 1x1
+        //Rolled omelette: 2x1
+        //Tomato: 2x2
+        //Carrot: 3x1, I think? or 1x3.  TBD
+        //Egg: 3x3
+        //Sushi: 3x2
+        //Dango: 5x1
+        //Fillet (or something or other; looks like beef, but could be fish. *shrug*): 2x6
+    //Then, the ones that don't:
+        //Shrimp
+        //Bounding rectangle: 2x2
+        //  x x
+        //  x _
+        //Chicken Leg
+        //Bounding rectangle: 2x4
+        //  x x x x
+        //  x x x _
+        //L-shaped squid: (Note: one rotation away from the L-shaped blue fish.  Why both pieces?  *shrug*, sir.)
+        //Bounding rectangle: 2x4
+        //  _ _ _ x
+        //  x x x x
+        //Octopus Tentacle
+        //Bounding rectangle: 2x5
+        //  x _ _ x x
+        //  x x x x x
+        //Bent Wiener
+        //Bounding rectangle: 2x5
+        //  x _ _ _ x
+        //  x x x x x
+        //たこさんウィンナー (Octopus wiener):
+        //Bounding rectangle: 3x3
+        //  _ x x
+        //  _ x x
+        //  x x x
+        //L-shaped blue fish:
+        //Bounding rectangle: 2x4
+        //  x x x x
+        //  x _ _ _
+        //Mushroom:
+        //Bounding rectangle: 2x3
+        //  x x x
+        //  _ x _
+        //Marshmallows:
+        //Bounding rectangle: 2x3
+        //  x _ x
+        //  x x x
+        //Leafy mushroom: 3x3
+        //  _ x _
+        //  _ x x
+        //  x x x
+        //3-prong thing  (Mushroom, maybe?  dunno)
+        //Bounding rectangle: 4x3
+        //  _ x _
+        //  _ x x
+        //  x x _
+        //  _ x _
+        //Pea pods
+        //Bounding rectangle: 3x3
+        //  _ _ x
+        //  x _ x
+        //  x x x
+        //Broccoli
+        //Bounding rectangle: 3x3
+        //  x x x
+        //  x x x
+        //  _ x _
+        //Leaf
+        //Bounding rectangle: 3x3
+        //  x x x
+        //  x x x
+        //  x _ _
+        //U-shaped leaves
+        //Bounding rectangle: 3x3
+        //  x _ x
+        //  x _ x
+        //  x x x
+        //Square Cucumbers
+        //Bounding rectangle: 2x2
+        //  _ x
+        //  x x
+
+
+
+To add a new piece:
+    - Add it to the GamePieceType enum (in GamePieces.cs)
+    - Add its 3-letter code to Lookups.LookUpThreeLetterPieceCode() (in GamePieces.cs)
+    - Add its 3-letter code to GameBoard.PrintGameboard()
+    - Add the piece to GamePieces.CreateGamePiece()
