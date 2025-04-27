@@ -2363,3 +2363,9 @@ data-styled.g12[id="Truncate__StyledTruncate-sc-23o1d2-0"]{content:"eAtkQz,"}/*!
   </body>
 </html>
 
+/NekoBentoSolver/.vs
+/NekoBentoSolver/bin
+/NekoBentoSolver/obj
+*.diagsession
+/NekoBentoSolver_Tests/obj
+/NekoBentoSolver_Tests/bin/Debug/net8.0
