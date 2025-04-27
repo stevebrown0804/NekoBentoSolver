@@ -4,13 +4,13 @@ That's right, I started a solver for Neko Bento...because as far as I could tell
 
 er go, a solver!
 
-FAQ!
-Q) What, no recursion?! This isn't even a solver! *throws desk!*  Also, you're stupid!
-A) Well, be that as it may...
+FAQ!  
+Q) What, no recursion?! This isn't even a solver! *throws desk!*  Also, you're stupid!  
+A) Well, be that as it may...  
 ...wait, lemme try that again.  
 Right, well...I started the project in a completely naive way, which is kinda the way I do anything.  I'm like a, uh...what's the word...(*tries to think back to his "Machine Learning with Graphs" class with Prof. Hamdi from a couple years ago*)...untrained AI, doing an initial pass before I learn the right way to do stuff, then I try again?  Something along those lines.
 
-Q) I notice you're using yield return in GetPermutations.  Just how lightweight IS this thing?
+Q) I notice you're using yield return in GetPermutations.  Just how lightweight IS this thing?  
 A) Lemme put it this way: It uses under 20MB of RAM and "pins" (<--joke) the CPU at about 6% (on my laptop with an AMD Ryzen 7 Mobile 5700U).  It was never really my intention for it to be so lightweight, and I'll probably try to make it consume more resources, in time.  
-But! If I ToList() the result of GetPermutations() (while solving xpac 3, lvl 11), it never (<--hyperbole...probably) manages to materialize it...so I gotta find some kind of balance...which probably means reducing the number of permutations.  (Or abandoning the GetPermutations() approach.)
+But! If I ToList() the result of GetPermutations() (while solving xpac 3, lvl 11), it never (<--hyperbole...probably) manages to materialize it...so I gotta find some kind of balance...which probably means reducing the number of permutations.  (Or abandoning the GetPermutations() approach.)  
 (Seriously though, I let the program run for a few days at one point and it still hadn't materialized it (in a laptop with 40GB RAM)...so let's just call it 'currently intractable' and try something else.  ChatGPT said something about my current approaching taking "...longer than human history" to solve that level.  snarky bastard.)
