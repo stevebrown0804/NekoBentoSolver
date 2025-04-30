@@ -13,4 +13,4 @@ A) Lemme put it this way: It uses under 20MB of RAM and "pins" (<--joke) the CPU
 
 But! If I ToList() the result of GetPermutations() (while solving xpac 3, lvl 11), it never (<--hyperbole...probably) manages to materialize it...so I gotta find some kind of balance...which probably means reducing the number of permutations.  (Or abandoning the GetPermutations() approach.)  
 
-(Seriously though, I let the program run for a few days at one point and it still hadn't materialized it (in a laptop with 40GB RAM)...so let's just call it 'currently intractable' and try something else.  ChatGPT said something about my current approaching taking "...longer than human history" to solve that level.  snarky bastard.)
+(Seriously though, I let the program run for a few days at one point and it still hadn't materialized it (in a laptop with 40GB RAM)...so let's just call it 'currently intractable' and try something else.  ChatGPT said something about my current approaching taking "...longer than human history" to solve that level.  snarky jerk.😂)
