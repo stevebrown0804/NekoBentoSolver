@@ -4,7 +4,7 @@ That's right, I started a solver for Neko Bento...because as far as I could tell
 
 er go, a solver!
 
-FAQ!  
+**FAQ!**  
 Q) What, no recursion?! This isn't even a solver! *throws desk*  
 A) Yeah...I started the project in a completely naive way, which is kinda the way I do anything.  And like I mentioned elsewhere...first try at a solver.
 
@@ -14,3 +14,8 @@ A) Lemme put it this way: It uses under 20MB of RAM and "pins" (<--joke) the CPU
 But! If I ToList() the result of GetPermutations() (while solving xpac 3, lvl 11), it never (<--hyperbole...probably) manages to materialize it...so I gotta find some kind of balance...which probably means reducing the number of permutations.  (Or abandoning the GetPermutations() approach.)  
 
 (Seriously though, I let the program run for a few days at one point and it still hadn't materialized it (in a laptop with 40GB RAM)...so let's just call it 'currently intractable' and try something else.  ChatGPT said something about my current approaching taking "...longer than human history" to solve that level.  snarky jerk.😂)
+
+---
+  
+**Note to anyone interested in continuing this project, if I don't:**  
+Please do!  Feel free to use whatever scaffolding you like. Fork or request being added to the project.  (I don't really have much Github experience outside from school so I don't know how to add people to the project....but how hard can it be?)  I suggest renaming Solver.Solve() to SolveViaPermutations_LowMem() or something equally as hard to read and re-implementing Solve() (or giving the new Solve() a descriptive name).  
